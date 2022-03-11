@@ -1,13 +1,29 @@
-        h1, p, i {
-            color: rgb(28, 0, 128);
-            font-size: 30px;
-            font-family: monospace;
-        }
+body{
+    margin: 0px;
+    font-family: monospace;
+}
 
-        .titulo{
-            color: red;
-        }
+.header {
+    background-color: black;
+    width: 100%;
+    border-bottom: 3px aqua solid;
+}
 
-        #paragrafo{
-            color: green;
-        }
+h1{
+    margin: 0;
+    color: aqua;
+}
+
+.header .container{
+    width: 70%;
+    display: flex;
+}
+
+.navbar{
+    width: 500px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    color: orange;
+    display: flex;
+}
